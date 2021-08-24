@@ -3,7 +3,7 @@
 // Значением исполнившегося промиса должно быть то кол-во миллисекунд которое передали во время вызова функции delay.
 
 const delay = ms => {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         setTimeout(() => resolve(ms), ms);
     });
   };
